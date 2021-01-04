@@ -73,6 +73,8 @@ Gli argomenti accettati sono:
 
 ## Grafici
 
+Le date usate nei grafici usano il formato MESE/GIORNO/ANNO
+
 v.get_grafico()
 
 ![](vaccini_1.png)
