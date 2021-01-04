@@ -68,8 +68,10 @@ Gli argomenti accettati sono:
 ## Grafici
 
 v.get_grafico()
+
 ![](vaccini_1.png)
 
 
 v.get_grafico_fasce()
+
 ![](vaccini_2.png)
