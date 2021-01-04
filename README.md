@@ -5,6 +5,12 @@ Classe python che processa i dati presi da https://github.com/ondata/covid19ital
 
 I dati non sono forniti ufficialmente dalla protezione civile italiana, potrebbero non essere sempre corretti/aggiornati con grande precisione
 
+## Dependencies 📚
+```
+matplotlib
+requests
+```
+
 ## Quickstart 🚀
 
 ```python
