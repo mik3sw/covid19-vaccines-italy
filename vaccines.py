@@ -60,7 +60,20 @@ class Vaccines:
                         lista_vaccinati.append(int(row[0]) + int(row[1]))
                 except:
                     pass
-        return lista_vaccinati, lista_giorni
+        listanew = self.get_lista_test(lista_vaccinati)
+        return listanew, lista_giorni
+    
+    def get_lista_test(self, lista):
+        listanew = []
+        length = 0
+        for x in lista:
+            if length != 0:
+                listanew.append(x - lista[length-1])
+            else:
+                listanew.append(x)
+            length = length + 1
+        return listanew
+    
     
     def get_grafico(self):
         vac, days = self.get_grafico_data()
